@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            background-image: url(./image/landscape-view-flowers-cute-desktop-images-field-windows-10-nature-wallpapers-download-hd-nature-1214x819-1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        input{
+            border: 2px solid black;
+        }
+        form{
+            width: 400px;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            text-decoration: underline red;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <Form>
+        <h1>Form with HTML</h1>
+        <Fieldset style="border: 5px solid red;padding: 30px; background-color: lightyellow; font-weight:900">
+            <legend>Form</legend>
+
+
+            <label for="">First Name:</label>
+            <input type="text" placeholder="Your First Name">
+                   <br><br>
+            <label for="">Last Name:</label>
+            <input type="text" placeholder="Your Last Name">
+                   <br><br>
+            <label for="">E-mail:</label>;
+            <input type="email" placeholder="Your E-mail Address">
+                   <br><br>
+            <label for="">Password:</label> 
+            <input type="password" name="" id="" placeholder="Password">     
+                    <br><br>
+            <label for="">Checkbox:</label> 
+            <input type="checkbox" name="" id="">
+                    <br><br>
+
+
+            <label for="">Select One:</label>
+                    <br>
+            <input type="radio" name="abc" value="HTML"> 
+            <label for="">HTML</label>
+                    <br>
+            <input type="radio" name="abc" value="CSS"> 
+            <label for="">CSS</label>
+                    <br>
+            <input type="radio" name="abc" value="JavaScript"> 
+            <label for="">JavaScript</label>        
+                    <br><br>       
+            
+            <label for="">Select Country:</label>
+            <select name="" id="">
+                <option value="">Bangladesh</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+            </select>
+                    <br><br>
+
+            <textarea name="" id="" cols="30" rows="3" placeholder="Write Comment"></textarea>
+            <!-- <input type="submit" value="Submit">   -->
+                    <br><br>
+
+             <label for="">Range:</label>       
+            <input type="range" name="" id="" value="20">              
+                    <br><br>
+
+            <label for="">Color Selection:</label>
+            <input type="color" name="" id="">        
+                    <br><br>
+
+
+            <input style="color: white; background-color:blueviolet; padding: 10px 20px; font-weight: 900;border-radius: 10%;" type="submit" value="Submit">       
+        </Fieldset>
+    </Form>
+
+
+</body>
+</html>
